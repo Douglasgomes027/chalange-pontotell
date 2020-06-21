@@ -1,7 +1,7 @@
 # desafio-pontotell
 Repositório utilizado para o desafio da vaga de desenvolvedor na Ponto Tel.
 
-<img src=".chalange.png">
+<img src="./chalange.png">
 
 
 ## Project setup
