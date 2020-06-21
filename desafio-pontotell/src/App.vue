@@ -1,14 +1,18 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <a href="#" class="navbar-brand">Desafio PontoTell</a>
-      <div class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a href="/employees" class="nav-link">Employees</a>
-        </li>
-      </div>
-    </nav>
-    <div class="container mt-3">
+    <v-toolbar
+      dark
+      prominent
+      src="./assets/header.png"
+    >
+      <img src="https://www.pontotel.com.br/wp-content/uploads/2020/05/gen_logo_26fffaab80f60db1b12ef1e67fd0f0c7.png" alt="Minha Figura">	
+      <v-toolbar-title>Desafio - Douglas Gomes</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn icon>
+        <v-icon>mdi-export</v-icon>
+      </v-btn>
+    </v-toolbar>
+     <div class="container mt-3">
       <router-view />
     </div>
   </div>

@@ -1,4 +1,8 @@
 # desafio-pontotell
+Repositório utilizado para o desafio da vaga de desenvolvedor na Ponto Tel.
+
+<img src=".chalange.png">
+
 
 ## Project setup
 ```
@@ -20,5 +24,9 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### **Um pouco sobre as ferramentas**
+
+- https://momentjs.com/
+- https://github.com/axios/axios
+- https://vuetifyjs.com/
+- https://vuejs.org/
